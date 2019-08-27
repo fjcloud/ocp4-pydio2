@@ -25,5 +25,5 @@ fi
 cp /config/ssmtp.conf /etc/ssmtp/ssmtp.conf
 
 # permissions
-chown -R abc:abc \
+chown -R 1002:1002 \
 	/config
