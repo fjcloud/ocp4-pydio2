@@ -10,5 +10,5 @@ if [ ! -f "/config/www/pydio/index.php" ]; then
 	mv pydio-* /config/www/pydio
 	cd / || exit
 	rm -rf /tmp/* /config/www/data
-	chown -R abc:abc /config/www/pydio /data
+	chown -R 1020:1020 /config/www/pydio /data
 fi
