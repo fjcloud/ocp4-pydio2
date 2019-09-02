@@ -20,10 +20,10 @@ cp /config/php/php.ini /etc/php7/php.ini
 
 if [ ! -f "/config/ssmtp.conf" ]; then
 cp /defaults/ssmtp.conf /config/ssmtp.conf
-chown abc:abc /config/ssmtp.conf
+chown 10000088:10000088 /config/ssmtp.conf
 fi
 cp /config/ssmtp.conf /etc/ssmtp/ssmtp.conf
 
 # permissions
-chown -R 1002:1002 \
+chown -R 10000088:10000088 \
 	/config
